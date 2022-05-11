@@ -1,0 +1,16 @@
+{
+    "autoload": {
+        "psr-4": {
+            "App\\": "app",
+            "Core\\": "core",
+            "Commons\\": "commons"
+        },
+        "files": ["core/Config.php", "app/helpers/Function.php"]
+    },
+    "require": {
+        "jenssegers/blade": "^1.4",
+        "phroute/phroute": "^2.1",
+        "illuminate/database": "^9.1",
+        "illuminate/events": "^9.1"
+    }
+}

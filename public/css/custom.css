@@ -1,0 +1,106 @@
+.add-question{
+    padding: 20px;
+    width: 100%;
+    font-size: 1rem;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    border: 1px dotted #1ab394;
+    font-weight: 600;
+    transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -ms-transition: all .2s linear;
+    -o-transition: all .2s linear;
+}
+.add-question:hover{
+    background: rgb(241, 241, 241);
+}
+
+.add-answer{
+    width: 100%;
+    color: var(--primary);
+    outline: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -ms-transition: all .2s linear;
+    -o-transition: all .2s linear;
+}
+
+.add-answer:hover{
+    color: var(--green);
+}
+
+.delete-row-answer{
+    outline: none;
+    border: none;
+    display: block;
+    background: none;
+    cursor: pointer;
+    color: rgb(253, 24, 24);
+}
+
+.pre-loader{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    /* transform: translate(-50%,-50%); */
+    background:rgb(241, 241, 241);
+    display: none;
+    z-index: 10000000;
+    /* -webkit-transform: translate(-50%,-50%); */
+    /* -moz-transform: translate(-50%,-50%); */
+    /* -ms-transform: translate(-50%,-50%); */
+    /* -o-transform: translate(-50%,-50%); */
+}
+.pre-loader .sk-spinner-three-bounce.sk-spinner{
+    margin: 0 auto;
+    width: 70px;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.delete-image{
+    outline: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: rgb(253, 24, 24);
+}
+
+.wizard > .steps > ul > li{
+    width: unset;
+}
+
+.product-imitation{
+    background-image: url('https://quizizz.com/media/resource/gs/quizizz-media/quizzes/d19bbaa5-c302-4e6e-b513-c0c353fd1a28');
+    background-size: cover;
+}
+
+.cart-product-imitation{
+    background-image: url('https://sas-production-uploads.s3.eu-west-2.amazonaws.com/article_main_img/tool/large_313101385.png');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 1/1;
+}
+
+table.shoping-cart-table tr td:first-child{
+    width: 15% !important;
+}
+
+.image-imitation{
+    background-size: cover;
+    background-image: url('https://www.farmhousecreative.net/wp-content/uploads/2020/01/bigstock-Quiz-Time-Announcement-Poster-244527799.jpg');
+}
